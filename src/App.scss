@@ -1,0 +1,420 @@
+@font-face{font-family: "Space Mono"; src:url("./Components/fonts/space-mono-v13-latin-700.woff2");}
+@font-face{font-family: "Space Mono"; src:url("./Components/fonts/space-mono-v13-latin-regular.woff2");}
+@font-face{font-family: " Lexend Deca"; src:url("./Components/fonts/lexend-deca-v21-latin-200.woff2");}
+@font-face{font-family: " Lexend Deca"; src:url("./Components/fonts/lexend-deca-v21-latin-regular.woff2");}
+
+ul,a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 1146px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+/////////// H e a d e r /////////
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header__ichi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+}
+.header__list{
+    display: flex;
+    gap: 33px;
+}
+.header__link{
+    font-family: "Space Mono";
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: #939CAA;
+transition: all 1s ease-in-out;
+&:hover{
+    color: #FCB72B;
+}
+}
+.Header__btn{
+    width: 180px;
+height: 53px;
+background-color: #FCB72B;
+color: #FFFFFF;
+font-family: "Space Mono";
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+border: none;
+transition: all 1s ease-in-out;
+border-radius: 5px;
+&:hover{
+    border: 2px solid #FCB72B;
+    color: #FCB72B;
+    background-color: #FFFFFF;
+}}
+
+//////////s e c t i o n ///////////////////////////
+
+.section{
+    margin-top: 50px;
+    background-image: url("./Components/img/Bitmap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section .container{
+    padding: 35px 25px;
+}
+.h1{
+    width: 500px;
+    Top:249px;
+     Left:165px;
+    font-family: "Space Mono";
+font-size: 56px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: -2.5px;
+text-align: left;
+color: #FFFFFF;
+
+}
+.section__text{
+    width: 350px;
+height: 100px;
+top: 401px;
+left: 260px;
+font-family: "Lexend Deca";
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: #FFFFFF;
+opacity: 0.5;
+
+}
+
+.chiziq{
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.chiziqrasm{
+   margin-left: -175px;
+}
+.chiziq2{
+    margin-top: 140px;
+}
+.section__btn{
+    
+        width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    color: #FFFFFF;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+    transition: all 1s ease-in-out;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    &:hover{
+        border: 2px solid #FCB72B;
+        color: #FCB72B;
+        background-color: #FFFFFF;
+    }}
+
+    ////////////////////////////s e c t i o n  2 /////////////////////////
+    .ection2{
+        margin-top: 150px;
+    }
+    .sapm{
+        
+        width: 974px;
+        height: 10px;
+        background-color:#cfd4dc;
+        display: block;
+        z-index: -2;
+        margin-left: -50px;
+    }
+    .scetion__2__list{
+        display: flex;
+        margin-top: -50px;
+        text-align: left;
+        gap: 45px;
+    }
+        .section2__title{
+            font-family: "Space Mono";
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -1.0714285373687744px;
+text-align: left;
+  }
+  .section2__tetx{
+    width: 350px;
+    font-family:" Lexend Deca";
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: #939CAA;
+  }
+
+  //////////s e c t i o n 3 ////////////////////////////
+   .ssection3{
+    margin-top: 150px;
+
+   }
+   .ssection3 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .section3__h2{
+    width: 445px;
+    font-family: "Space Mono";
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: left;
+color: #495567;
+   }
+   .ssection3__text{
+    width: 445px;
+    font-family: "Lexend Deca";
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: #939CAA;
+
+   }
+
+   .section3__btn{
+    width: 180px;
+    height: 53px;
+    background-color: #FCB72B;
+    color: #FFFFFF;
+    font-family: "Space Mono";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+    transition: all 1s ease-in-out;
+    border-radius: 5px;
+   margin-top: 25px;
+    &:hover{
+        border: 2px solid #FCB72B;
+        color: #FCB72B;
+        background-color: #FFFFFF;
+    }
+   }
+   .Chziq3{
+    position: absolute;
+    right: 0;
+    right: 190px;
+    top: 1550px;
+   }
+
+   //////////////////////s e c t i o n 4 ////////////////////////
+   
+   .section4{
+    margin-top: 250px;
+   }
+   .section4 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .section4__h2{
+    width: 445px;
+    font-family: "Space Mono";
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: left;
+color: #495567;
+
+   }
+   .ssection4__text{
+    width: 445px;
+    font-family: "Lexend Deca";
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: #939CAA;
+
+   }
+   .section5{
+    margin-top: 250px;
+
+   }
+   .section5 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .section5__h2{
+    width: 445px;
+    font-family: "Space Mono";
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: left;
+color: #495567;
+
+   }
+   .ssection5__text{
+    width: 445px;
+    font-family:" Lexend Deca";
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+color: #939CAA;
+
+   }
+   .Chziq5{
+    position: absolute;
+    right: 0;
+    right: 190px;
+    top: 2580px;
+   }
+
+   ///////////////////s e c t i o n 6//////////////////////////
+   .section6{
+    background-image: url("./Components/img/footerdanoldin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 45px;
+   }
+   .section6 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+.Section6__h2{
+    width: 415px;
+    font-family: "Space Mono";
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -2.142857074737549px;
+text-align: left;
+color: #FFFFFF;
+}
+
+.footer{
+    background-color: #333A44;
+    padding: 10px;
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__list{
+    display: flex;
+    gap: 20px;
+}
+.path{
+    transition: all 0.5s ease-in-out;
+}
+.path:hover{
+    fill: #FFFFFF;
+    margin-top: -2px;
+}
+
+
+.modalka{
+ display: none;
+}
+
+.modal2{
+    text-align: center;
+    margin-top: 550px;
+    right: 0;
+    right: 45px;
+    // display: none;
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    background-color: #333A44;
+    color: #939CAA;
+    padding: 15px;
+    border-radius: 15px;
+}
+.btn{
+    display:inline-block;
+    display: block;
+    text-align: center;
+
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 66px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: #00FF7F;
+}
+.btn2{
+    display:inline-block;
+    display: block;
+    text-align: center;
+
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 66px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: 	#00FF00;
+}
+.form{
+    text-align: center;
+}
+.in{
+    width: 150px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+.s{
+    display:inline-block;
+    display: block;
+    text-align: center;
+
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 66px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: 	#00FF00;
+}
